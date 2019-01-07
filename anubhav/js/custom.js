@@ -230,7 +230,7 @@
         });
     }
 
-$(document).on('click',function(){
+$(document).on('click touch',function(){
     
    if( ($('nav div').hasClass('open')) && ($('nav').hasClass('show'))
         ){
